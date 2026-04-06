@@ -3,8 +3,8 @@
     
     Parameters:
     lam            : Security parameter (128, 192, 256)
-    m, n           : Matrix dimensions (rows/cols)
     q              : Field size (2, 127)
+    t              : Number of rounds repeated under Fiat-Shamir
     w_start        : Starts here then iterates down, checking forgery cost
     w_step         : Change in each iterate (so w_step = 5 and w_start = 100 checks 100, then 95, then 90, ...)
     t_star_min     : Minimal value of t_star to check
