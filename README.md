@@ -1,6 +1,6 @@
 # Miraidon
 
-This repository holds the scripts involved in [Miraidon](https://eprint.iacr.org/2026/997), a novel MinRank identification scheme used to design a signature, ring signature, and linkable ring signature scheme.
+This repository holds the scripts involved in [Miraidon](https://eprint.iacr.org/2026/997) by Freeman Slaughter and Ryann Cartor, a novel MinRank identification scheme used to design a signature, ring signature, and linkable ring signature scheme.
 
 - [Miraidon_ZKP.py](./Miraidon_ZKP.py) holds the proof-of-concept for the underlying zero-knowledge proof
 - [min_secure_w.py](./min_secure_w.py) is the script which determines the minimal secure weight of the challenge vector $b$, with regards to forgery attacks
